@@ -25,6 +25,9 @@ module.exports = function (env) {
         STORAGE_S3_REGION: "",
         STORAGE_S3_ENDPOINT: "s3.us-west-004.backblazeb2.com",
         STORAGE_LOCATIONS: "s3",
-        STORAGE_S3_DRIVER: "s3"
+        STORAGE_S3_DRIVER: "s3",
+        STORAGE_S3_BUCKET: env.STORAGE_S3_BUCKET,
+        STORAGE_S3_KEY: env.STORAGE_S3_KEY,
+        STORAGE_S3_SECRET: env.STORAGE_S3_SECRET
     };
 };
