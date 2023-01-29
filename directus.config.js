@@ -22,8 +22,8 @@ module.exports = function (env) {
         DB_USER: env.PGUSER,
         DB_PASSWORD: env.PGPASSWORD,
         
-        STORAGE_S3_REGION: "s3.us-west-004",
-        STORAGE_S3_ENDPOINT: "backblazeb2.com",
+        STORAGE_S3_REGION: "",
+        STORAGE_S3_ENDPOINT: "s3.us-west-004.backblazeb2.com",
         STORAGE_LOCATIONS: "s3",
         STORAGE_S3_DRIVER: "s3"
     };
