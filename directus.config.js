@@ -23,6 +23,8 @@ module.exports = function (env) {
         DB_PASSWORD: env.PGPASSWORD,
         
         STORAGE_S3_REGION: "s3.us-west-004",
-        STORAGE_S3_ENDPOINT: "backblazeb2.com"
+        STORAGE_S3_ENDPOINT: "backblazeb2.com",
+        STORAGE_LOCATIONS: "s3",
+        STORAGE_S3_DRIVER: "s3"
     };
 };
